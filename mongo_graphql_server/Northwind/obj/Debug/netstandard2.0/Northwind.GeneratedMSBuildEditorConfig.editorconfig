@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Northwind
+build_property.ProjectDir = c:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server\Northwind\

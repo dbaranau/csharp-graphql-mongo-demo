@@ -1,0 +1,442 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Example/1.0.0": {
+        "dependencies": {
+          "GraphQL.MicrosoftDI": "5.1.1",
+          "GraphQL.Server.Transports.AspNetCore": "6.0.0",
+          "GraphQL.Server.Ui.Playground": "6.0.0",
+          "GraphQL.SystemTextJson": "5.1.1",
+          "Northwind": "1.0.0",
+          "StarWars": "1.0.0"
+        },
+        "runtime": {
+          "Example.dll": {}
+        }
+      },
+      "DnsClient/1.6.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/DnsClient.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "GraphQL/5.1.1": {
+        "dependencies": {
+          "GraphQL-Parser": "8.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "GraphQL-Parser/8.0.0": {
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "GraphQL.MicrosoftDI/5.1.1": {
+        "dependencies": {
+          "GraphQL": "5.1.1",
+          "Microsoft.Extensions.Options": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.MicrosoftDI.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "GraphQL.Server.Transports.AspNetCore/6.0.0": {
+        "dependencies": {
+          "GraphQL": "5.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Transports.AspNetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "GraphQL.Server.Ui.Playground/6.0.0": {
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.Playground.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "GraphQL.SystemTextJson/5.1.1": {
+        "dependencies": {
+          "GraphQL": "5.1.1",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.SystemTextJson.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {},
+      "Microsoft.Extensions.Options/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "MongoDB.Bson/2.16.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.16.1.0",
+            "fileVersion": "2.16.1.0"
+          }
+        }
+      },
+      "MongoDB.Driver/2.16.1": {
+        "dependencies": {
+          "MongoDB.Bson": "2.16.1",
+          "MongoDB.Driver.Core": "2.16.1",
+          "MongoDB.Libmongocrypt": "1.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.dll": {
+            "assemblyVersion": "2.16.1.0",
+            "fileVersion": "2.16.1.0"
+          }
+        }
+      },
+      "MongoDB.Driver.Core/2.16.1": {
+        "dependencies": {
+          "DnsClient": "1.6.1",
+          "MongoDB.Bson": "2.16.1",
+          "MongoDB.Libmongocrypt": "1.5.3",
+          "SharpCompress": "0.30.1",
+          "System.Buffers": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.Core.dll": {
+            "assemblyVersion": "2.16.1.0",
+            "fileVersion": "2.16.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libsnappy64.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libzstd.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libsnappy64.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libzstd.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/libzstd.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/snappy32.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "1.1.1.7"
+          },
+          "runtimes/win/native/snappy64.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "1.1.1.7"
+          }
+        }
+      },
+      "MongoDB.Libmongocrypt/1.5.3": {
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Libmongocrypt.dll": {
+            "assemblyVersion": "1.5.3.0",
+            "fileVersion": "1.5.3.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libmongocrypt.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libmongocrypt.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/mongocrypt.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SharpCompress/0.30.1": {
+        "runtime": {
+          "lib/net5.0/SharpCompress.dll": {
+            "assemblyVersion": "0.30.1.0",
+            "fileVersion": "0.30.1.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Json/4.7.2": {},
+      "Northwind/1.0.0": {
+        "dependencies": {
+          "GraphQL": "5.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "MongoDB.Driver": "2.16.1"
+        },
+        "runtime": {
+          "Northwind.dll": {}
+        }
+      },
+      "StarWars/1.0.0": {
+        "dependencies": {
+          "GraphQL": "5.1.1"
+        },
+        "runtime": {
+          "StarWars.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DnsClient/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
+      "path": "dnsclient/1.6.1",
+      "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "GraphQL/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D///P5uRa7juUyHk+3oPmrFYT0xGCUiJvvDKL0nbGhQYK/zJgGuhCEcSsUC42Lnx9UPtoQBvq/Md/XG6CHaC6w==",
+      "path": "graphql/5.1.1",
+      "hashPath": "graphql.5.1.1.nupkg.sha512"
+    },
+    "GraphQL-Parser/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbAEvS0u240X3eN+5zv2eEVKlYTUhW3OB3JmGvI0ZTfiikyQYbWpt3t25C3aykolZUo2WCxewveeCNP4BHXR9A==",
+      "path": "graphql-parser/8.0.0",
+      "hashPath": "graphql-parser.8.0.0.nupkg.sha512"
+    },
+    "GraphQL.MicrosoftDI/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jFCPqbdbPC9/5jmlaKo6DlrTJGLhw2bEQYKFSRZhc3spUMeoiy6e/feqlqzZZeR4tAjpRky5yDyNW/+/O7PBtw==",
+      "path": "graphql.microsoftdi/5.1.1",
+      "hashPath": "graphql.microsoftdi.5.1.1.nupkg.sha512"
+    },
+    "GraphQL.Server.Transports.AspNetCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fm5wd+qV9FTtnE9iisL2Mszcp/7AnnU6VqRqcfldklEZDPQtjEvoT3AYii0d8lZNrJCsSiTLklbGyI2+ca+RoQ==",
+      "path": "graphql.server.transports.aspnetcore/6.0.0",
+      "hashPath": "graphql.server.transports.aspnetcore.6.0.0.nupkg.sha512"
+    },
+    "GraphQL.Server.Ui.Playground/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6oWJD8BaAfXqA1ICjj+9FOFLKZFs5oeLWQCU/VtpaZ18WhRyGYdBL0bhG5teB+hsHg1AyzJPcl6ppz/DlVghA==",
+      "path": "graphql.server.ui.playground/6.0.0",
+      "hashPath": "graphql.server.ui.playground.6.0.0.nupkg.sha512"
+    },
+    "GraphQL.SystemTextJson/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YUbmSxlsjDByUTwAv0eTc8JclucXmD0FOag6fOJuZCWduXy7hUCnQVvXW3iZjnQdHsiRuPBjZ7bmaNjsQ1bGOA==",
+      "path": "graphql.systemtextjson/5.1.1",
+      "hashPath": "graphql.systemtextjson.5.1.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+      "path": "microsoft.extensions.options/2.0.0",
+      "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d647KTPQ7hWqJmvCg80iiVdm239llaUwMyIeRF/0zKpN+ddRWh9jT/g6R6WQrmi4qd7yodvv/Jn0rpEqh4QN8g==",
+      "path": "mongodb.bson/2.16.1",
+      "hashPath": "mongodb.bson.2.16.1.nupkg.sha512"
+    },
+    "MongoDB.Driver/2.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqDWfRG7gM1tZKcG9Q/vuQGYF5GsBuxUF5KcOgvWrE6P7pSkOSL9xGZ7ABZ6XRVECGEQs+N6GyU1E4ViI4lh+g==",
+      "path": "mongodb.driver/2.16.1",
+      "hashPath": "mongodb.driver.2.16.1.nupkg.sha512"
+    },
+    "MongoDB.Driver.Core/2.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oJZnXHnAyTd/haHYdbfKMRmPEZ1fFrndv8xhorHeTkUDeGgsPA89vpGMHcjppUyHMYBpLgHbn6GoMkleHKsTHg==",
+      "path": "mongodb.driver.core/2.16.1",
+      "hashPath": "mongodb.driver.core.2.16.1.nupkg.sha512"
+    },
+    "MongoDB.Libmongocrypt/1.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OWWxuyuxbjAmOLPoaoUEYnIW4F7qexS6XYOdu6absxyGAqLBWEY+M4WY2Y0km2UUG1+QOPdebpb/7cg5BIEbdw==",
+      "path": "mongodb.libmongocrypt/1.5.3",
+      "hashPath": "mongodb.libmongocrypt.1.5.3.nupkg.sha512"
+    },
+    "SharpCompress/0.30.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
+      "path": "sharpcompress/0.30.1",
+      "hashPath": "sharpcompress.0.30.1.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "Northwind/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StarWars/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

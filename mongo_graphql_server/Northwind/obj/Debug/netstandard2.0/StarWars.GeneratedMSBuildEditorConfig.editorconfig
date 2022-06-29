@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = StarWars
+build_property.ProjectDir = C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\StarWars\

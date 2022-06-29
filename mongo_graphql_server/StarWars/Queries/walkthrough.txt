@@ -1,0 +1,145 @@
+QUERY:
+query Query($iddroid: String!, $idhuman: String!) {
+  droid(id: $iddroid) {
+    id
+    name
+    friends {
+      id
+      name
+    }
+    #appearsIn
+    primaryFunction
+  }
+  hero {
+    id
+    name
+    friends {
+      id
+      name
+    }
+    appearsIn
+  }
+  human(id: $idhuman) {
+    id
+    name
+    friends {
+      id
+      name
+    }
+    appearsIn
+    homePlanet
+  }
+}
+
+
+{
+  "iddroid": "3",
+  "idhuman": "1"
+}
+
+MUTATION:
+mutation ($human:HumanInput!) {
+  createHuman(human: $human) {
+    id
+    name
+  }
+}
+
+{
+    "human": {
+      "name": "Boba Fett1",
+      "homePlanet": "Kamino1"
+    }
+}
+
+COMPLEX PRJ:
+mutation ($human:HumanInput!) {
+  createHuman(human: $human) {
+    id
+    name
+  }
+}
+query Query($iddroid: String!, $idhuman: String!) {
+  droid(id: $iddroid) {
+    id
+    name
+    friends {
+      id
+      name
+    }
+    #appearsIn
+    primaryFunction
+    friendsConnection {
+      totalCount
+      edges{
+        cursor
+      }
+    }
+  }
+  hero {
+    id
+    name
+    friends {
+      id
+      name
+    }
+    appearsIn
+  }
+  human(id: $idhuman) {
+    ...idAndName
+    friends {
+      id
+      name
+    }
+    appearsIn
+    homePlanet
+  }
+}
+fragment idAndName on Character {
+  id
+  name
+}
+
+{
+  "iddroid": "3",
+  "idhuman": "1"
+}
+
+
+
+
+
+
+
+
+
+
+# Write your query or mutation here
+query Query() {
+  droid() {
+    id
+    name
+    humanFriends {
+      id
+      name
+    }
+    droidFriends {
+      id
+      name
+    }
+    primaryFunction
+  }
+  human() {
+    id
+    name
+    humanFriends {
+      id
+      name
+    }
+    droidFriends {
+      id
+      name
+    }
+    homePlanet
+  }
+}

@@ -1,0 +1,86 @@
+# Write your query or mutation here
+query Query($categoryIds: [Int], 
+  	$orderDetailIds: [Int], $supplierIds: [Int]){ 
+  orderDetails (orderDetailIds: $orderDetailIds) {
+    product {
+      productName
+    }
+  }
+  products (categoryIds: $categoryIds) {
+    productName
+    categoryId
+    supplierId
+    unitPrice
+    category {
+    	categoryName  
+    }
+    supplier {
+      companyName
+    }
+    orderDetails {
+      discount
+      unitPrice
+    }
+    #quantityPerUnit
+  }
+  categories  (categoryIds: $categoryIds) {
+    categoryName
+    description
+    products {
+      productName
+      supplier {
+        companyName
+      }
+    }
+  }
+  suppliers (supplierIds: $supplierIds) {
+    companyName
+    address
+    country
+    contactName
+    products {
+      productName
+      category {
+        categoryName
+      }
+    }
+  }  
+  
+}
+
+{
+  "categoryIds": [5, 6, 7, 8],
+  "orderDetailIds": [11, 12, 13],
+  "supplierIds": [1,2,3,4]
+}
+
+
+#MUTATION
+mutation Mutation($newCategory:CategoryInput!) {
+  createCategory(newCategory: $newCategory) {
+    entityId
+    categoryName
+    description
+  }
+}
+query Query($categoryIds: [Int]){ 
+  categories  (categoryIds: $categoryIds) {
+    categoryName
+    description
+    products {
+      productName
+      supplier {
+        companyName
+      }
+    }
+  }
+}
+
+{
+    "newCategory": {
+      "entityId": 10003,
+      "categoryName": "newCategory10003",
+      "description": "newCategory10003"
+    },
+    "categoryIds": [10001, 10002, 10003, 10004]
+}

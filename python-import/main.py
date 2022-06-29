@@ -40,11 +40,11 @@ def show_collection(coll_name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # pth = 'c:/dev/mongolab/data-json'
+    # pth = 'C:\Dev\_csharp-graphql-mongo-demo\python-import\data-json'
     # files = [fl for fl in os.listdir(pth) if isfile(join(pth, fl))]
     # for fl in files:
     #     import_file(pth, fl)
-
+    #
     # list_collections()
 
-    show_collection('product')
+    show_collection('salesOrder')

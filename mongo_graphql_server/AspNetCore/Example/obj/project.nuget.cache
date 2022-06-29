@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "T84KPOf2HcWUW+XIOZJkbP/6CxlIZstgA39Jmj2WMqwYiCIDmhVenTgzERoaFgR0xny/k4ZlEHa15QQwC4hfcw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\_csharp-graphql-mongo-demo\\mongo_graphql_server_new\\AspNetCore\\Example\\Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dima\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql\\5.1.1\\graphql.5.1.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql-parser\\8.0.0\\graphql-parser.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql.microsoftdi\\5.1.1\\graphql.microsoftdi.5.1.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql.server.transports.aspnetcore\\6.0.0\\graphql.server.transports.aspnetcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql.server.ui.playground\\6.0.0\\graphql.server.ui.playground.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql.systemtextjson\\5.1.1\\graphql.systemtextjson.5.1.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\mongodb.bson\\2.16.1\\mongodb.bson.2.16.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\mongodb.driver\\2.16.1\\mongodb.driver.2.16.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\mongodb.driver.core\\2.16.1\\mongodb.driver.core.2.16.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.3\\mongodb.libmongocrypt.1.5.3.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

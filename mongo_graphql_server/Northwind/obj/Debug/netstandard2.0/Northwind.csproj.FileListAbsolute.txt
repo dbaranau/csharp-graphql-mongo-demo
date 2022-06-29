@@ -1,0 +1,10 @@
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\bin\Debug\netstandard2.0\Northwind.deps.json
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\bin\Debug\netstandard2.0\Northwind.dll
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\bin\Debug\netstandard2.0\Northwind.pdb
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.csproj.AssemblyReference.cache
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.AssemblyInfoInputs.cache
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.AssemblyInfo.cs
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.csproj.CoreCompileInputs.cache
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.dll
+C:\Dev\_csharp-graphql-mongo-demo\mongo_graphql_server_new\Northwind\obj\Debug\netstandard2.0\Northwind.pdb

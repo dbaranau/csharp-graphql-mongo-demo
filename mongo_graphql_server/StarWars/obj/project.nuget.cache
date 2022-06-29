@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "H4wzMTLlp7Za0s+JM6aIqh6zzxFTTRNB2moN2YWgiasyriu6GDfo61q1Y+h4Y2Bab9oaZY5tJcAq2sM8OLTBYA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\_csharp-graphql-mongo-demo\\mongo_graphql_server_new\\StarWars\\StarWars.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql\\5.1.1\\graphql.5.1.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\graphql-parser\\8.0.0\\graphql-parser.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\Dima\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
