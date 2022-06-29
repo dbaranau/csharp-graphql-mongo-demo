@@ -1,0 +1,14 @@
+GraphQl.Net:
+https://graphql-dotnet.github.io/docs/getting-started/introduction
+
+GraphQl:
+https://graphql.org/learn/
+
+Demo public github repo:
+https://github.com/dbaranau/csharp-graphql-mongo-demo
+
+Other usefull github repos:
+https://github.com/graphql-dotnet/graphql-dotnet
+https://github.com/graphql-dotnet/examples
+
+
